@@ -48,7 +48,7 @@ body{
 }
 
 .logo{
-    width: 250px;
+    height: 77px;
     margin-bottom: 25px;
     padding: 25px;
 }
@@ -56,5 +56,5 @@ body{
 .logo:hover{
     border: 10px solid cyan;
     background-color: white;
-    box-sizing: border-box;
+    padding: 15px;
 }
