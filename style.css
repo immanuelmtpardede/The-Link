@@ -1,0 +1,59 @@
+html{
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+    background-color: rgba(0, 100, 100, 0.1);
+}
+
+.welcome{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container{
+    width: 90%;
+    border: 10px solid white;
+    border-left-style: double;
+    margin: 50px auto;
+}
+
+.picture{
+    width: 250px;
+    height: 250px;
+    margin: 25px auto;
+    background-image: url("img/profile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 360px;
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 25px auto;
+}
+
+.the-link{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.logo:hover{
+    border: 10px solid cyan;
+    background-color: white;
+    box-sizing: border-box;
+}
